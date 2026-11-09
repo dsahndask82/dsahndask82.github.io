@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Page not found · Earth Drive</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="4;url=/">
+<style>
+:root{--bg:#0e1620;--fg:#f4f7fa;--accent:#ffd166;--btn-fg:#14202e}
+@media (prefers-color-scheme:light){:root{--bg:#eef3f8;--fg:#14202e;--accent:#e0a400;--btn-fg:#14202e}}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;box-sizing:border-box;text-align:center}
+img{max-width:min(260px,70vw);height:auto}
+h1{margin:0;font-size:28px;letter-spacing:-.02em}
+p{margin:0;opacity:.75}
+a.btn{background:var(--accent);color:var(--btn-fg);text-decoration:none;font-weight:600;border-radius:8px;padding:12px 24px}
+</style>
+</head>
+<body>
+<main>
+<img src="/logo.png" alt="Earth Drive logo">
+<h1>Page not found</h1>
+<p>Taking you home…</p>
+<a class="btn" href="/">Go home</a>
+</main>
+<script>setTimeout(function(){location.replace('/')},4000)</script>
+</body>
+</html>
